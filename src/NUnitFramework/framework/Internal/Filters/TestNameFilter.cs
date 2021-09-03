@@ -29,7 +29,7 @@ namespace NUnit.Framework.Internal.Filters
     /// <summary>
     /// TestName filter selects tests based on their Name
     /// </summary>
-    internal class TestNameFilter : ValueMatchFilter
+    public class TestNameFilter : ValueMatchFilter
     {
         /// <summary>
         /// Construct a TestNameFilter for a single name

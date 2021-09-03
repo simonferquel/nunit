@@ -29,7 +29,7 @@ namespace NUnit.Framework.Internal.Filters
     /// <summary>
     /// NotFilter negates the operation of another filter
     /// </summary>
-    internal class NotFilter : TestFilter
+    public class NotFilter : TestFilter
     {
         /// <summary>
         /// Construct a not filter on another filter

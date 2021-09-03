@@ -33,7 +33,7 @@ namespace NUnit.Framework.Internal.Filters
     /// CategoryFilter is able to select or exclude tests
     /// based on their categories.
     /// </summary>
-    internal class CategoryFilter : ValueMatchFilter
+    public class CategoryFilter : ValueMatchFilter
     {
         /// <summary>
         /// Construct a CategoryFilter using a single category name
